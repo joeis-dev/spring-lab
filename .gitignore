@@ -1,0 +1,60 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+*.trace
+
+# Temp files
+*.tmp
+*.temp
+*~
+~*
+
+# JVM
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.exe
+*.dll
+*.so
+*.o
+*.class
+.factorypath
