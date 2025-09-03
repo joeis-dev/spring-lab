@@ -2,8 +2,12 @@ package dev.joeis.spring.basics.mail;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
+// This ambiguity resolver sets the default bean from a group of them (MailSender impl. for this case)
+// so it can be picked unless specific resolution is made for example via @Qualifier.
+@Primary
 @Component
 public class MailSenderImpl implements MailSender {
 
