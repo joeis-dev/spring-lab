@@ -5,6 +5,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+/**
+ * There's other specializations of @Components like @Controller, @Repository, @Service, @Configuration and
+ * @SpringBootApplication. Each of them puts beans into the Spring App Context for different purposes.
+ * */
+
 // @Component: creates a default bean identified by mailSMTP
 // Recommended: define a custom id
 @Qualifier("myQualifierBean")

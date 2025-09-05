@@ -50,9 +50,14 @@ public class MailSenderController {
 
     // Injection via @Qualifier: this ambiguity resolver overrides the default preference from @Primary
     // and select the specific bean provided.
+//    @Autowired
+//    public MailSenderController(@Qualifier("myQualifierBean") MailSender mail) {
+//        this.mailSender = mail;
+//    }
+
     @Autowired
-    public MailSenderController(@Qualifier("myQualifierBean") MailSender mail) {
-        this.mailSender = mail;
+    public MailSenderController(MailSender mockMailFromConfig) {
+        this.mailSender = mockMailFromConfig;
     }
 
     /***
