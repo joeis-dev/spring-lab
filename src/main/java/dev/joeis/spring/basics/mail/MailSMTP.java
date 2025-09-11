@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
 public class MailSMTP implements MailSender {
 
     private static final Logger log = LoggerFactory.getLogger(MailSMTP.class);

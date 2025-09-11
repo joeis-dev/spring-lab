@@ -2,9 +2,7 @@ package dev.joeis.spring.basics.mail;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 
-@Component
 public class MailSenderImpl implements MailSender {
 
     private static final Logger log = LoggerFactory.getLogger(MailSenderImpl.class);

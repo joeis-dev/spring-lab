@@ -13,7 +13,7 @@ public class HelloWorld {
      * all values in app.package.*
      * https://docs.spring.io/spring-boot/reference/features/external-config.html
      * */
-    @Value("${app.env}")
+    @Value("${app.name}")
     String environment;
 
     @RequestMapping("/hello")
