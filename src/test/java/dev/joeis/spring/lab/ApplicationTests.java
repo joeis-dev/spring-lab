@@ -1,4 +1,4 @@
-package dev.joeis.spring.basics;
+package dev.joeis.spring.lab;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
